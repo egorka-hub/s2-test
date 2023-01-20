@@ -33,6 +33,10 @@ li {
   .upNavItem {
     padding: 15px;
     color: #343440;
+
+    &:hover {
+        color: lighten(#6f34da, 5%);
+      }
   }
 
   .navSvg {
