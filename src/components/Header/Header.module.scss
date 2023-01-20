@@ -1,0 +1,64 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.headerBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 28px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  height: 28px;
+  width: 128px;
+  cursor: pointer;
+}
+
+.upNav {
+  display: flex;
+  align-items: center;
+
+  .upNavItem {
+    padding: 15px;
+    color: #343440;
+  }
+
+  .navSvg {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+  }
+}
+
+.tryBtn {
+  height: 48px;
+  width: 220px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: #6f34da;
+  border-color: transparent;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    background: lighten(#6f34da, 5%);
+  }
+
+  &:active {
+    background: darken(#6f34da, 5%);
+  }
+}

@@ -1,6 +1,11 @@
+import styles from "./index.scss";
+import Header from "./components/Header/Header";
+
 function App() {
   return (
-    <div>Hi, Egor!</div>
+    <div>
+      <Header/>
+    </div>
   );
 }
 
