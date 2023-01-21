@@ -1,0 +1,41 @@
+ul {
+  padding: 0;
+}
+
+.navigationBlock {
+  background-color: #343440;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navLogoImg {
+  width: 130px;
+  height: 28px;
+  margin-top: 52px;
+}
+
+.navName {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navItems {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.navList {
+  list-style-type: none;
+}
+
+.reightNav {
+  display: flex;
+}
+
+.menuItems {
+    padding: 30px;
+}
