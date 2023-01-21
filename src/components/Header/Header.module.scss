@@ -1,9 +1,4 @@
-* {
-  list-style-type: none;
-  text-decoration: none;
-}
-
-li {
+.upNavList {
   display: flex;
   align-items: center;
 }
@@ -33,10 +28,12 @@ li {
   .upNavItem {
     padding: 15px;
     color: #343440;
+    list-style-type: none;
+    text-decoration: none;
 
     &:hover {
-        color: lighten(#6f34da, 5%);
-      }
+      color: lighten(#6f34da, 5%);
+    }
   }
 
   .navSvg {

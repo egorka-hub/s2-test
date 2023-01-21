@@ -14,13 +14,13 @@ const Header = () => {
 
         <div className={styles.menu}>
           <ul className={styles.upNav}>
-            <li>
+            <li className={styles.upNavList}>
               <img className={styles.navSvg} src={CALL_SVG} alt="Call" />
               <a className={styles.upNavItem} href="#">
                 Заказать звонок
               </a>
             </li>
-            <li>
+            <li className={styles.upNavList}>
               <img
                 className={styles.navSvg}
                 src={DOWNLOAD_SVG}
@@ -30,7 +30,7 @@ const Header = () => {
                 Скачать презентацию
               </a>
             </li>
-            <li>
+            <li className={styles.upNavList}>
               <img className={styles.navSvg} src={LOGIN_SVG} alt="Login" />
               <a className={styles.upNavItem} href="#">
                 Войти

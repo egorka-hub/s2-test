@@ -1,0 +1,99 @@
+.main {
+  padding: 7px 50px;
+  display: flex;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainCategories {
+  display: flex;
+
+  .mainCategory {
+    color: #5179e8;
+    font-size: 27px;
+    font-weight: 800;
+    opacity: 0.6;
+    margin-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+      color: darken(#5179e8, 10%);
+    }
+  }
+}
+
+.aimBlock {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  .solveText {
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .solveWhatText {
+    font-size: 80px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+
+.mainBtns {
+  display: flex;
+  justify-content: center;
+
+  .tryBtnMain {
+    height: 48px;
+    width: 220px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: #6f34da;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    margin: 10px;
+
+    &:hover {
+      background: lighten(#6f34da, 5%);
+    }
+
+    &:active {
+      background: darken(#6f34da, 5%);
+    }
+  }
+
+  .callBtnMain {
+    height: 48px;
+    width: 220px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: #343440;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    margin: 10px;
+
+    &:hover {
+      background: lighten(#343440, 5%);
+    }
+
+    &:active {
+      background: darken(#343440, 5%);
+    }
+  }
+}
+
+.leftMain {
+  width: 600px;
+  margin-right: 60px;
+}
+
+.reightMain {
+  width: 500px;
+  height: 420px;
+}
