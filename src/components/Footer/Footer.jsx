@@ -14,25 +14,25 @@ const Footer = () => {
             <div className={styles.meadia}>
                 <div>
                     <a>
-                        <img style={{width: "22px", height: "14px", padding: "6px"}} src={VK_SVG} alt="Vk"/>
+                        <img style={{width: "22px", height: "14px", padding: "6px", cursor: "pointer"}} src={VK_SVG} alt="Vk"/>
                     </a>
                 </div>
 
                 <div>
                     <a>
-                        <img style={{width: "18px", height: "18px", padding: "6px"}} src={FACEBOOK_SVG} alt="Facebook"/>
+                        <img style={{width: "18px", height: "18px", padding: "6px", cursor: "pointer"}} src={FACEBOOK_SVG} alt="Facebook"/>
                     </a>
                 </div>
 
                 <div>
                     <a>
-                        <img style={{width: "18px", height: "18px", padding: "6px"}} src={INSTA_SVG} alt="Instagram"/>
+                        <img style={{width: "18px", height: "18px", padding: "6px", cursor: "pointer"}} src={INSTA_SVG} alt="Instagram"/>
                     </a>
                 </div>
 
                 <div>
                     <a>
-                        <img style={{width: "22px", height: "14px", padding: "6px"}} src={YOUTUBE_SVG} alt="YouTube"/>
+                        <img style={{width: "22px", height: "14px", padding: "6px", cursor: "pointer"}} src={YOUTUBE_SVG} alt="YouTube"/>
                     </a>
                 </div>
             </div>
