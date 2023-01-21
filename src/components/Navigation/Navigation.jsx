@@ -2,10 +2,6 @@ import React from "react";
 import styles from "./Navigation.module.scss";
 
 import NAVLOGO_SVG from "../../assets/images/navlogo.svg";
-import VK_SVG from "../../assets/images/vk.svg";
-import FACEBOOK_SVG from "../../assets/images/facebook.svg";
-import INSTA_SVG from "../../assets/images/insta.svg";
-import YOUTUBE_SVG from "../../assets/images/youtube.svg";
 
 const Navigation = () => {
   return (
