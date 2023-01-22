@@ -3,9 +3,13 @@ import styles from "./Navigation.module.scss";
 
 import NAVLOGO_SVG from "../../assets/images/navlogo.svg";
 
+import Container from '../../components/Container/Container';
+
 const Navigation = () => {
   return (
-    <div className={styles.navigationBlock}>
+    <div className={styles.background}>
+    <Container>
+    <div className={styles.wrapper}>
       <div className={styles.leftNav}>
         <img className={styles.navLogoImg} src={NAVLOGO_SVG} alt="Logo" />
       </div>
@@ -18,23 +22,15 @@ const Navigation = () => {
                     <li className={styles.navList}>
                         <a className={styles.navItems}>История</a>
                     </li>
-                </ul>
-                <ul>
                     <li className={styles.navList}>
                         <a className={styles.navItems}>Пресса о нас</a>
                     </li>
-                </ul>
-                <ul>
                     <li className={styles.navList}>
                         <a className={styles.navItems}>Отзывы</a>
                     </li>
-                </ul>
-                <ul>
                     <li className={styles.navList}>
                         <a className={styles.navItems}>Вакансии</a>
                     </li>
-                </ul>
-                <ul>
                     <li className={styles.navList}>
                         <a className={styles.navItems}>Контакты</a>
                     </li>
@@ -135,6 +131,8 @@ const Navigation = () => {
             </ul>
         </div>
       </div>
+    </div>
+    </Container>
     </div>
   );
 };

@@ -2,10 +2,13 @@ ul {
   padding: 0;
 }
 
-.navigationBlock {
+.background {
   background-color: #343440;
+}
+
+.wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .navLogoImg {
@@ -30,6 +33,7 @@ ul {
 
 .navList {
   list-style-type: none;
+  margin-top: 12px;
 }
 
 .reightNav {
