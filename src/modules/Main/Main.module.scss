@@ -116,6 +116,17 @@
 }
 
 @media (max-width: $md) {
+  .aimBlock {
+    margin-bottom: 20px;
+    .solveText {
+      font-size: 66px;
+     }
+     .solveWhatText {
+       font-size: 66px;
+     }
+  }
+    
+ 
 }
 
 @media (max-width: $sm) {
@@ -170,12 +181,16 @@
     margin-right: 0px;
   }
 
-  .tryBtnMain {
-    height: 40px;
-  }
+  .mainBtns {
+    .tryBtnMain {
+      width: 130px;
+      height: 40px;
+    }
 
-  .callBtnMain {
-    height: 40px;
+    .callBtnMain {
+      width: 130px;
+      height: 40px;
+    }
   }
 }
 
