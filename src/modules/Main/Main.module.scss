@@ -29,12 +29,12 @@
     margin-right: 10px;
     cursor: pointer;
 
-    @media (max-width: $xs) {
-      font-size: 12px;
-    }
-
     @media (max-width: $sm) {
       font-size: 20px;
+    }
+
+    @media (max-width: $xs) {
+      font-size: 12px;
     }
 
     &:hover {
@@ -167,12 +167,12 @@
   width: 600px;
   margin-right: 60px;
 
-  @media (max-width: $xs) {
-    margin-right: 0px;
+  @media (max-width: $lg) {
+    margin-right: 0;
   }
 }
 
-.reightMain {
+.rightMain {
   width: 500px;
   height: 420px;
 

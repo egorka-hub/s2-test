@@ -1,4 +1,6 @@
 import React from "react";
+import cn from 'classnames'
+
 import Container from "../../components/Container/Container";
 
 import styles from "./Navigation.module.scss";
@@ -28,7 +30,7 @@ const Navigation = () => {
                 </ul>
               </div>
 
-              <div className={styles.menuItem}>
+              <div className={cn(styles.menuItem, styles.documents)}>
                 <h3 className={styles.navName}>Документы</h3>
                 <ul>
                   {documents.map(({ title }, i) => (

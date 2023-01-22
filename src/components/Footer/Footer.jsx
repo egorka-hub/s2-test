@@ -11,22 +11,22 @@ import YOUTUBE_SVG from "../../assets/images/youtube.svg";
 
 const socials = [
     {
-        styles: {width: "22px", height: "14px", padding: "6px", cursor: "pointer"},
+        styles: {width: "22px", height: "14px"},
         image: VK_SVG,
         label: 'Vk',
     },
     {
-        styles: {width: "18px", height: "18px", padding: "6px", cursor: "pointer"},
+        styles: {width: "18px", height: "18px"},
         image: FACEBOOK_SVG,
         label: 'Facebook',
     },
     {
-        styles: {width: "18px", height: "18px", padding: "6px", cursor: "pointer"},
+        styles: {width: "18px", height: "18px"},
         image: INSTA_SVG,
         label: 'Instagram',
     },
     {
-        styles: {width: "22px", height: "14px", padding: "6px", cursor: "pointer"},
+        styles: {width: "22px", height: "14px"},
         image: YOUTUBE_SVG,
         label: 'YouTube',
     }

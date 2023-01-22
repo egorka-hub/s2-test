@@ -28,7 +28,6 @@
   justify-content: space-between;
 
   @media (max-width: $lg) {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -42,13 +41,15 @@
     background-position: center center;
     border-color: #000000;
     border-style: solid;
-    box-shadow: 0px 4px 36px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0 4px 36px 0 rgb(0 0 0 / 10%);
     display: flex;
     align-items: center;
     flex-direction: column;
 
     @media (max-width: $lg) {
-      margin-bottom: 15px;
+      &:not(:last-of-type) {
+        margin-bottom: 15px;
+      }
     }
 
     @media (max-width: $xs) {

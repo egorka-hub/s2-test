@@ -17,18 +17,20 @@ import SKILLBOX_PNG from "../../assets/images/companies/skillbox.png";
 import SYNERGY_PNG from "../../assets/images/companies/synergy.png";
 import TOGAS_PNG from "../../assets/images/companies/togas.png";
 
+const categories = [
+  'CRM', 'EPR', 'Производство',
+  'Склад', 'Финансы', 'Проекты'
+]
+
 const Main = () => {
   return (
     <div className={styles.main}>
       <div className={styles.leftMain}>
         <div className={styles.mainTextBlock}>
           <div className={styles.mainCategories}>
-            <div className={styles.mainCategory}>CRM</div>
-            <div className={styles.mainCategory}>EPR</div>
-            <div className={styles.mainCategory}>Производство</div>
-            <div className={styles.mainCategory}>Склад</div>
-            <div className={styles.mainCategory}>Финансы</div>
-            <div className={styles.mainCategory}>Проекты</div>
+            {categories.map(cat => (
+              <div className={styles.mainCategory}>{cat}</div>
+            ))}
           </div>
           <div className={styles.aimBlock}>
             <span className={styles.solveText}>Решаем</span>
@@ -42,7 +44,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className={styles.reightMain}>
+      <div className={styles.rightMain}>
         <img style={{width: "100px", height: "38px", padding: "8px"}} src={TOGAS_PNG} alt="company"/>
         <img style={{width: "212px", height: "36px", padding: "8px"}} src={GEEKBRAINS_PNG} alt="company"/>
         <img style={{width: "134px", height: "52px", padding: "8px"}} src={ARATPARK_PNG} alt="company"/>

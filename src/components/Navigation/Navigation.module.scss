@@ -61,3 +61,11 @@ ul {
   padding: 30px;
 }
 
+.documents {
+  margin-top: 30px;
+
+  @media (max-width: $sm) {
+    margin-top: 60px;
+  }
+}
+
