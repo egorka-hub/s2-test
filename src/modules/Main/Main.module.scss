@@ -99,3 +99,57 @@
   width: 500px;
   height: 420px;
 }
+
+@media (max-width: $lg) {
+  .reightMain {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .aimBlock {
+    text-align: center;
+  }
+}
+
+@media (max-width: $md) {
+}
+
+@media (max-width: $sm) {
+  .mainCategories {
+    .mainCategory {
+      font-size: 20px;
+    }
+  }
+
+  .aimBlock {
+    .solveText {
+      font-size: 60px;
+    }
+
+    .solveWhatText {
+      font-size: 60px;
+    }
+  }
+
+  .mainBtns {
+    .tryBtnMain {
+      width: 160px;
+    }
+
+    .callBtnMain {
+      width: 160px;
+    }
+  }
+}
+
+@media (max-width: $xs) {
+}
+
+// $lg: 1170px;
+// $md: 992px;
+// $sm: 768px;
+// $xs: 576px;

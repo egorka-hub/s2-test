@@ -70,3 +70,35 @@
     }
   }
 }
+
+@media (max-width: $lg) {
+  .wrapper {
+    padding-bottom: 20px;
+  }
+
+  .itemsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .item {
+      margin-bottom: 15px;
+    }
+  }
+  
+}
+
+@media (max-width: $md) {
+ 
+}
+
+@media (max-width: $sm) {
+}
+
+@media (max-width: $xs) {
+}
+
+// $lg: 1170px;
+// $md: 992px;
+// $sm: 768px;
+// $xs: 576px;

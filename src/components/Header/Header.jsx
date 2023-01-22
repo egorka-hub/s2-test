@@ -1,4 +1,5 @@
 import React from "react";
+import cn from "classnames";
 import styles from "./Header.module.scss";
 
 import Container from '../../components/Container/Container';
@@ -23,7 +24,7 @@ const Header = () => {
                 Заказать звонок
               </a>
             </li>
-            <li className={styles.upNavList}>
+            <li className={cn(styles.upNavList, styles.download)}>
               <img
                 className={styles.navSvg}
                 src={DOWNLOAD_SVG}

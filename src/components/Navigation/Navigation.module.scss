@@ -43,5 +43,35 @@ ul {
 }
 
 .menuItems {
-    padding: 30px;
+  padding: 30px;
 }
+
+@media (max-width: $lg) {
+}
+
+@media (max-width: $md) {
+}
+
+@media (max-width: $sm) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reightNav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: $xs) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// $lg: 1170px;
+// $md: 992px;
+// $sm: 768px;
+// $xs: 576px;

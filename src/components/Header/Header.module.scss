@@ -64,3 +64,30 @@
     background: darken($purple, 5%);
   }
 }
+
+@media (max-width: $lg) {
+  .tryBtn {
+    margin-right: 36px;
+  }
+}
+
+@media (max-width: $md) {
+  .download {
+    display: none;
+  }
+
+  .tryBtn {
+    margin-right: 36px;
+  }
+}
+
+@media (max-width: $sm) {
+}
+
+@media (max-width: $xs) {
+}
+
+// $lg: 1170px;
+// $md: 992px;
+// $sm: 768px;
+// $xs: 576px;
