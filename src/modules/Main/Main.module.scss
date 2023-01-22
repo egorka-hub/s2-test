@@ -147,7 +147,42 @@
 }
 
 @media (max-width: $xs) {
+  .aimBlock {
+    margin-bottom: 10px;
+    .solveText {
+      font-size: 30px;
+    }
+
+    .solveWhatText {
+      font-size: 30px;
+    }
+  }
+
+  .mainCategories {
+    display: flex;
+    justify-content: center;
+    .mainCategory {
+      font-size: 12px;
+    }
+  }
+
+  .leftMain {
+    margin-right: 0px;
+  }
+
+  .tryBtnMain {
+    height: 40px;
+  }
+
+  .callBtnMain {
+    height: 40px;
+  }
 }
+
+
+
+
+
 
 // $lg: 1170px;
 // $md: 992px;

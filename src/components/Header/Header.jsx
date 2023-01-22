@@ -18,7 +18,7 @@ const Header = () => {
 
         <div className={styles.menu}>
           <ul className={styles.upNav}>
-            <li className={styles.upNavList}>
+            <li className={cn(styles.upNavList, styles.call)}>
               <img className={styles.navSvg} src={CALL_SVG} alt="Call" />
               <a className={styles.upNavItem} href="#">
                 Заказать звонок
