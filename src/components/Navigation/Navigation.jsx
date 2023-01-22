@@ -1,16 +1,10 @@
 import React from "react";
+import Container from '../../components/Container/Container';
+
 import styles from "./Navigation.module.scss";
 
 import NAVLOGO_SVG from "../../assets/images/navlogo.svg";
-
-import Container from '../../components/Container/Container';
-
-// const navs = [
-//     {
-//         title: "Компания",
-//         item: ["История", "Пресса о нас"],
-//     },
-// ]
+import {company, documents} from './consts'
 
 const Navigation = () => {
   return (
@@ -26,33 +20,22 @@ const Navigation = () => {
             <div className={styles.menuItem}>
                 <h3 className={styles.navName}>Компания</h3>
                 <ul>
-                    <li className={styles.navList}>
-                        <a className={styles.navItems}>История</a>
-                    </li>
-                    <li className={styles.navList}>
-                        <a className={styles.navItems}>Пресса о нас</a>
-                    </li>
-                    <li className={styles.navList}>
-                        <a className={styles.navItems}>Отзывы</a>
-                    </li>
-                    <li className={styles.navList}>
-                        <a className={styles.navItems}>Вакансии</a>
-                    </li>
-                    <li className={styles.navList}>
-                        <a className={styles.navItems}>Контакты</a>
-                    </li>
+                    {company.map(({title}, i) => (
+                      <li key={i} className={styles.navList}>
+                          <a className={styles.navItems}>{title}</a>
+                      </li>
+                    ))}
                 </ul>
             </div>
 
             <div className={styles.menuItem}>
                 <h3 className={styles.navName}>Документы</h3>
                 <ul>
-                    <li className={styles.navList}>
-                        <a className={styles.navItems}>Пользовательское соглашение</a>
-                    </li>
-                    <li className={styles.navList}>
-                        <a className={styles.navItems}>Политика конфиденциальности</a>
-                    </li>
+                    {documents.map(({title}, i) => (
+                      <li key={i} className={styles.navList}>
+                          <a className={styles.navItems}>{title}</a>
+                      </li>
+                    ))}
                 </ul>
             </div>
         </div>

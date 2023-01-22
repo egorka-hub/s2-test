@@ -26,11 +26,11 @@ const Solution = () => {
           Выберите подходящее описание вашего бизнеса
         </h2>
         <div className={styles.itemsWrapper}>
-          {items.map(it => (
-            <div className={styles.item}>
-              <h3 className={styles.cardTitle}>{it.title}</h3>
+          {items.map(({title, btn}) => (
+            <div className={styles.item} key={title}>
+              <h3 className={styles.cardTitle}>{title}</h3>
               <div className={styles.btn}>
-                <button className={styles.more}>{it.btn}</button>
+                <button className={styles.more}>{btn}</button>
               </div>
             </div>
           ))}
