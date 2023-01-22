@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Header.module.scss";
 
+import Container from '../../components/Container/Container';
+
 import LOGO_SVG from "../../assets/images/logo.svg";
 import CALL_SVG from "../../assets/images/call.svg";
 import DOWNLOAD_SVG from "../../assets/images/download.svg";
@@ -9,6 +11,7 @@ import LOGIN_SVG from "../../assets/images/login.svg";
 const Header = () => {
   return (
     <header className={styles.header}>
+      <Container>
       <div className={styles.headerBlock}>
         <img className={styles.logoImg} src={LOGO_SVG} alt="Logo" />
 
@@ -42,6 +45,7 @@ const Header = () => {
           <button className={styles.tryBtn}>Попробовать бесплатно</button>
         </div>
       </div>
+      </Container>
     </header>
   );
 };

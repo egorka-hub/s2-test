@@ -5,6 +5,13 @@ import NAVLOGO_SVG from "../../assets/images/navlogo.svg";
 
 import Container from '../../components/Container/Container';
 
+// const navs = [
+//     {
+//         title: "Компания",
+//         item: ["История", "Пресса о нас"],
+//     },
+// ]
+
 const Navigation = () => {
   return (
     <div className={styles.background}>
@@ -43,8 +50,6 @@ const Navigation = () => {
                     <li className={styles.navList}>
                         <a className={styles.navItems}>Пользовательское соглашение</a>
                     </li>
-                </ul>
-                <ul>
                     <li className={styles.navList}>
                         <a className={styles.navItems}>Политика конфиденциальности</a>
                     </li>
@@ -58,20 +63,12 @@ const Navigation = () => {
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Продавать</a>
                 </li>
-            </ul>
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Внедрять</a>
                 </li>
-            </ul>
-
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Дорабатывать</a>
                 </li>
-            </ul>
-
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Партнерский портал</a>
                 </li>
@@ -84,47 +81,27 @@ const Navigation = () => {
                 <li className={styles.navList}>
                     <a className={styles.navItems}>ERP – что это?</a>
                 </li>
-            </ul>
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>CRM – что это?</a>
                 </li>
-            </ul>
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Отличия ERP и CRM</a>
                 </li>
-            </ul>
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Как выбрать</a>
                 </li>
-            </ul>
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Как внедрить</a>
                 </li>
-            </ul>
-
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Сравнение с конкурентами</a>
                 </li>
-            </ul>
-
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Тарифы и цены</a>
                 </li>
-            </ul>
-
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Виртуальный помощник</a>
                 </li>
-            </ul>
-
-            <ul>
                 <li className={styles.navList}>
                     <a className={styles.navItems}>Блог</a>
                 </li>
