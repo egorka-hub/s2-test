@@ -20,6 +20,11 @@
   height: 28px;
   width: 128px;
   cursor: pointer;
+
+  @media (max-width: $xs) {
+    width: 100px;
+    height: 22px;
+  }
 }
 
 .upNav {
@@ -56,6 +61,19 @@
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 
+  @media (max-width: $lg) {
+    margin-right: 36px;
+  }
+
+  @media (max-width: $md) {
+    margin-right: 36px;
+  }
+
+  @media (max-width: $xs) {
+    width: 150px;
+    height: 40px;
+  }
+
   &:hover {
     background: lighten($purple, 5%);
   }
@@ -65,43 +83,15 @@
   }
 }
 
-@media (max-width: $lg) {
-  .tryBtn {
-    margin-right: 36px;
-  }
-}
-
-@media (max-width: $md) {
-  .download {
+.doownload {
+  @media (max-width: $md) {
     display: none;
   }
-
-  .tryBtn {
-    margin-right: 36px;
-  }
 }
 
-@media (max-width: $sm) {
-}
-
-@media (max-width: $xs) {
-  .tryBtn {
-    width: 150px;
-    height: 40px;
-  }
-
-  .call {
+.call {
+  @media (max-width: $xs) {
     display: none;
   }
-
-  .logoImg {
-    width: 100px;
-    height: 22px;
-  }
-
 }
 
-// $lg: 1170px;
-// $md: 992px;
-// $sm: 768px;
-// $xs: 576px;

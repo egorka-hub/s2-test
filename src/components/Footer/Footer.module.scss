@@ -4,6 +4,10 @@
   padding: 30px 0;
   background-color: #23232a;
 
+  @media (max-width: $lg) {
+    padding: 30px 20px;
+  }
+
   .container {
     display: flex;
     justify-content: space-between;
@@ -20,23 +24,5 @@
   }
 }
 
-@media (max-width: $lg) {
-  .copyright {
-    padding: 30px 20px;
-  }
-}
 
-@media (max-width: $md) {
-}
-
-@media (max-width: $sm) {
-
-}
-
-@media (max-width: $xs) {
-}
-
-// $lg: 1170px;
-// $md: 992px;
-// $sm: 768px;
-// $xs: 576px;
+ 
